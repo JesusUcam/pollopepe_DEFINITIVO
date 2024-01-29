@@ -18,6 +18,13 @@ class Productos_modelo{
         }
         return $this->datos;
     }
+
+    public function insertar($nombre, $cantidad, $descripcion){
+
+        $sql = "INSERT INTO productos (nombre, cantidad, descripcion) VALUES ('$nombre', '$cantidad', '$descripcion')";
+        return $this->db->query($sql);
+        
+    }
 }
 
 ?>
