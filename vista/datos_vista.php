@@ -7,21 +7,23 @@ if (isset($_SESSION['nombre'])) {
     <h3>Nuevo usuario</h3>
 
     <div class="container">
-        <form action="index.php" method="post">
-            <label for="fname">Usuario:</label>
-            <input type="text" id="fname" name="nombre" placeholder="Nombre de usuario..">
+        <div id="nuevo">
+            <form action="index.php" method="post">
+                <label for="fname">Usuario:</label>
+                <input type="text" id="fname" name="nombre" placeholder="Nombre de usuario..">
 
-            <label for="lclave">Contraseña:</label>
-            <input type="password" id="lclave" name="clave" placeholder="Contraseña..">
+                <label for="lclave">Contraseña:</label>
+                <input type="password" id="lclave" name="clave" placeholder="Contraseña..">
 
-            <label for="fedad">Edad:</label>
-            <input type="text" id="fedad" name="edad" placeholder="Edad..">
+                <label for="fedad">Edad:</label>
+                <input type="text" id="fedad" name="edad" placeholder="Edad..">
 
-            <label for="fcorreo">Correo:</label>
-            <input type="text" id="fcorreo" name="correo" placeholder="Correo..">
+                <label for="fcorreo">Correo:</label>
+                <input type="text" id="fcorreo" name="correo" placeholder="Correo..">
 
-            <input type="submit" name="insertar" value="Insertar">
-        </form>
+                <input type="submit" name="insertar" value="Insertar">
+            </form>
+        </div>
 
         <div id="contenido"></div>
 

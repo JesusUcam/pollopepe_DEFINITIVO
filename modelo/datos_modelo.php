@@ -54,5 +54,10 @@ class Datos_modelo
             }
             return false;
     }   
+
+    function modificar($nombre, $edad, $correo){
+        $sql = "UPDATE datos SET edad=$edad, correo='$correo' WHERE nombre='$nombre'";
+        return $this->db->query($sql);
+    }
 }
 ?>

@@ -1,4 +1,6 @@
 function modificarUsuario(usuario) {
+    $('#nuevo').hide();
+    $('#contenido').show();
     $.ajax({
         type:'POST',
         data:{accion:"modificar",
@@ -14,4 +16,10 @@ function modificarUsuario(usuario) {
             console.log(error);
         },
     });
+}
+
+function cancelar() {
+    $('#nuevo').show();
+    $('#contenido').hide();
+    
 }
