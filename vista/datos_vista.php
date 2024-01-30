@@ -10,10 +10,10 @@ if (isset($_SESSION['nombre'])) {
         <div id="nuevo">
             <form action="index.php" method="post">
                 <label for="fname">Usuario:</label>
-                <input type="text" id="fname" name="nombre" placeholder="Nombre de usuario..">
+                <input type="text" id="fname" name="nombre" placeholder="Nombre del usuario..">
 
                 <label for="lclave">Contraseña:</label>
-                <input type="password" id="lclave" name="clave" placeholder="Contraseña..">
+                <input type="password" id="lclave" name="clave" placeholder="Contraseña del usuario..">
 
                 <label for="fedad">Edad:</label>
                 <input type="text" id="fedad" name="edad" placeholder="Edad..">
