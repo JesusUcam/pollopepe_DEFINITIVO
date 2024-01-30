@@ -8,7 +8,7 @@ if (isset($_SESSION['nombre'])) {
 
     <div class="container">
         <div id="nuevo">
-            <form action="index.php" method="post">
+            <form action="" method="post">
                 <label for="fname">Nombre:</label>
                 <input type="text" id="fname" name="nombre" placeholder="Nombre del producto...">
 
@@ -50,7 +50,7 @@ if (isset($_SESSION['nombre'])) {
     ?>
         <div class="container">
             <h3>Inicio de sesión</h3>
-            <form action="index.php" method="post">
+            <form action="" method="post">
                 <label for="nombre">Nombre de usuario:</label>
                 <input type="text" name="nombre" id="nombre">
                 <br><br>

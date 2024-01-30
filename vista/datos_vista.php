@@ -8,7 +8,7 @@ if (isset($_SESSION['nombre'])) {
 
     <div class="container">
         <div id="nuevo">
-            <form action="index.php" method="post">
+            <form action="" method="post">
                 <label for="fname">Usuario:</label>
                 <input type="text" id="fname" name="nombre" placeholder="Nombre de usuario..">
 

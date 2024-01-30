@@ -3,7 +3,7 @@ session_start();
 
 if(isset($_POST["accion"])){
     //estamos ante una llamada a ajax
-echo '  <form action="index.php" method="post">
+echo '  <form action="" method="post">
 <label for="fname">Nombre:</label>
 <input type="text" id="fname" name="nombre" value="'.$_POST['nombre'].'" readonly>
 
@@ -20,8 +20,7 @@ echo '  <form action="index.php" method="post">
 }
 
 
-function home()
-{
+function home(){
 
     require_once("modelo/datos_modelo.php");
     $error = '';
