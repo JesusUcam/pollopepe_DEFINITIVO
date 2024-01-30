@@ -16,7 +16,7 @@ if (isset($_SESSION['nombre'])) {
                 <input type="password" id="lclave" name="clave" placeholder="Contraseña del usuario..">
 
                 <label for="fedad">Edad:</label>
-                <input type="text" id="fedad" name="edad" placeholder="Edad..">
+                <input type="text" id="fedad" name="edad" placeholder="Edad ..">
 
                 <label for="fcorreo">Correo:</label>
                 <input type="text" id="fcorreo" name="correo" placeholder="Correo..">
