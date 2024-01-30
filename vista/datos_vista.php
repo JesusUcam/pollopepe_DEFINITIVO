@@ -19,7 +19,7 @@ if (isset($_SESSION['nombre'])) {
                 <input type="text" id="fedad" name="edad" placeholder="Edad..">
 
                 <label for="fcorreo">Correo:</label>
-                <input type="text" id="fcorreo" name="correo" placeholder="Correo..">
+                <input type="text" id="fcorreo" name="correo" placeholder="Correo del usuario..">
 
                 <input type="submit" name="insertar" value="Insertar">
             </form>
