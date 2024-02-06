@@ -47,6 +47,7 @@ class Datos_modelo
     public function insertar($nombre, $clave, $edad, $correo){
 
         $sql = "INSERT INTO usuarios (nombre, clave) VALUES ('$nombre', '$clave')";
+        //No entiendo para que se ha creado la tabla "datos" teniendo la de "usuarios"
         if($this->db->query($sql)){
             $sql1 = "INSERT INTO datos (nombre, edad, correo) VALUES ('$nombre', $edad, '$correo')";
             return $this->db->query($sql1);
